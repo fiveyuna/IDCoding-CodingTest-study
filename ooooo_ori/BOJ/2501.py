@@ -18,5 +18,6 @@ for n in range(1,N+1) :
         
 print(num)
             
+# num 초기값 0 으로 설정 > 필요없는 코드
 # if(K > th) : print(0)
 # else : print(num)
