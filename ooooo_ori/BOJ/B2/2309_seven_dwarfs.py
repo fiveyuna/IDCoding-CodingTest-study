@@ -26,3 +26,7 @@ for i in range(9):
     
     if(is_detected):         
         break
+    
+output = sorted(data)
+for i in range(7):
+    print(output[i])
