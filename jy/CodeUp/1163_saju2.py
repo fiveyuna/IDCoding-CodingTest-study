@@ -4,13 +4,13 @@ import math
 # 입력예시) 1502 2 10
 # 출력예시) 그럭저럭
 
-str = input()
-list = str.split()
+
+list = input().split()
 
 num = int(list[0]) + int(list[1]) + int(list[2])
 
-# 백의 자리 이상 숫자만 남김(예: 1514 -> 15)
-num = math.trunc(num/100)
+# 백의 자리 이상 숫자만 남김(예: 15.14 -> 15)
+num = num//100 # int(num/100)
 
 if num%2 == 0: # 짝수면
     print("대박")

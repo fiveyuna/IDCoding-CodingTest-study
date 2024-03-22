@@ -2,8 +2,8 @@
 # 입력예시) 201 20 3
 # 출력예시) 20
 
-str = input()
-list = list(map(int, str.split()))
+
+list = list(map(int, input().split()))
 
 # 버블정렬
 def bubbleSort(arr):
