@@ -2,9 +2,8 @@
 # 입력예시) 1902 2 10
 # 출력예시) 대박
 
-str = input()
 
-list = str.split()
+list = input().split()
 
 num = int(list[0]) - int(list[1]) + int(list[2])
 
