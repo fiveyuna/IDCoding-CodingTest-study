@@ -2,8 +2,8 @@
 # 1172 : 세 수 정렬하기
 # 15분
 
-num = list(map(int, input().split()))
-num.sort()
+num = map(int, input().split())
+num = sorted(num)
 
 # 다른 풀이 참고
 print(*num)
